@@ -1,0 +1,133 @@
+.topSection h1 {
+    font-weight: 600;
+        font-size: 24px;
+}
+
+.secondLine {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.star,
+.map {
+    width: 16px;
+    height: 16px;
+}
+
+.starRating {
+    gap: 4px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.mapLocation {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 24px;}
+
+.camperImage {
+    border: 2px solid lightgrey;
+
+    border-radius: 10px;
+        width: 292px;
+        height: 312px;
+        object-fit: cover;
+        margin-right: 24px;
+        object-position: center;
+        
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #475467;
+}
+
+
+
+.tabs {
+    display: flex;
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        gap: 40px;
+        margin-top: 60px;
+        position: relative;
+}
+
+.lineFeaturesActive {
+    height: 10px;
+    width: 85px;
+    position: absolute;
+    top: 67px;
+        z-index: 1;
+}
+
+.lineReviewsActive {
+height: 10px;
+    width: 80px;
+    position: absolute;
+    top: 67px;
+    left: 124px;
+    z-index: 1;
+    
+}
+
+
+
+.lineFeatures,
+.lineReviews {
+    display: none;
+}
+
+.tabs p {
+    cursor: pointer;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    width: 1372px;;
+    bottom: -82px;
+    z-index: 0;
+}
+
+.lowerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.tabContent {
+    flex: 2;
+    width: 591px;
+}
+
+.formWrapper {
+    flex: 1;
+    margin-left: 20px;
+}

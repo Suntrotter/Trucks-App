@@ -1,0 +1,63 @@
+.bookingForm {
+    margin-bottom: 40px;
+    border: 1px solid #dadde1;
+        border-radius: 10px;
+        padding: 44px;
+        width: 590px;
+        height: 588px;
+        margin-top: 34px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bookingForm h3 {
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+}
+
+.callToAction {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #6c717b;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 18px;
+    width: 512px;        
+    height: 24px;
+    background: #f7f7f7;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c717b;
+    border: 1px solid #dadde1;
+    font-family: "Inter", sans-serif;
+}
+
+.textarea {
+    height: 118px;
+}
+
+.submitBtn {
+    border: 1px solid #e44848;
+    border-radius: 200px;
+    padding: 16px 60px;
+    width: 166px;
+    height: 56px;
+    background: #e44848;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+.details {
+    margin: 0 64px;
+}
+
+.lowerContainer {
+    display: flex;
+    gap: 40px;
+
+}
+

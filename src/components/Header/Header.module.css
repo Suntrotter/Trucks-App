@@ -1,0 +1,36 @@
+.header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    }
+
+.navigation a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 64px;
+    width: 136px;
+    height: 16px;
+    margin-right: 450px;
+}
+
+.home {
+    color: #d84343;
+    
+}
+
+.activeLink {
+    color: red;}

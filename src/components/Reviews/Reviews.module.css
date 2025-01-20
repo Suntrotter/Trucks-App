@@ -1,0 +1,47 @@
+.container {
+    border-radius: 10px;
+    padding: 44px 0;
+    width: 620px;
+    height: 590px;
+
+}
+
+.nameRating {
+    display: flex;
+    column-gap: 16px;
+    row-gap: 4px;
+    
+}
+
+.letter {
+    display: flex;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    background: #f2f4f7;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+     color: #e44848;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 29px;
+}
+
+.comment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #475467;
+}
+
+.grayLine {
+    margin-top: -12px;
+    width: 1370px;
+}

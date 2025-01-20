@@ -1,0 +1,40 @@
+.container {
+    border-radius: 10px;
+    padding: 44px 80px;
+    width: 500px;
+    height: 590px;
+    background: #f7f7f7;
+    margin-top: 44px;
+        
+        
+}
+
+.features {
+display: flex;
+flex-wrap: wrap;
+}
+
+.featureItem {
+    margin-bottom: 8px;
+    height: 48px;
+}
+
+.features h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -70px;;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.grayLine {
+    margin-top: -12px;
+    width: 1370px;
+}
